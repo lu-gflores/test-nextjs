@@ -17,10 +17,10 @@ class Form extends React.Component {
         return(
             <form>
             <div className='form-group'>
-                <label for = 'city'>City</label>
+                <label htmlFor = 'city'>City</label>
                 <input type='text' className='form-control' onChange={this.handleChange}/>    
             </div>
-            <button type='submit' className="btn btn-primary" value="Submit" onSubmit={this.handleSubmit}>Enter</button>
+            <button type='submit' className="btn btn-primary" value="Submit" onSubmit={this.handleSubmit}>Search Weather</button>
             </form>
         )
     }
