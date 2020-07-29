@@ -18,7 +18,9 @@ class Form extends React.Component {
             <form>
             <div className='form-group'>
                 <label htmlFor = 'city'>City</label>
-                <input type='text' className='form-control' onChange={this.handleChange}/>    
+                <input type='text' className='form-control' onChange={this.handleChange}/>
+                <label htmlFor = 'country'>Country</label>
+                <input type='text' className='form-control' onChange={this.handleChange}/>        
             </div>
             <button type='submit' className="btn btn-primary" value="Submit" onSubmit={this.handleSubmit}>Search Weather</button>
             </form>
